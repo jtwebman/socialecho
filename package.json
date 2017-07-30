@@ -1,0 +1,45 @@
+{
+  "name": "socialecho",
+  "version": "0.1.0",
+  "description": "A open twitter tool for scheduling collections of tweets",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtwebman/socialecho.git"
+  },
+  "keywords": [
+    "twitter",
+    "tweet",
+    "tool"
+  ],
+  "author": "JT Turner <jtwebman@gmail.com> (https://jtwebman.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtwebman/socialecho/issues"
+  },
+  "homepage": "https://github.com/jtwebman/socialecho#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "config": "^1.26.1",
+    "csv": "^1.1.1",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.7",
+    "graphql": "^0.10.5",
+    "jsonwebtoken": "^7.4.1",
+    "sqlite": "^2.8.0",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "coveralls": "^2.13.1",
+    "eslint": "^4.3.0",
+    "eslint-config-google": "^0.9.1",
+    "mocha": "^3.4.2",
+    "nyc": "^11.1.0"
+  }
+}

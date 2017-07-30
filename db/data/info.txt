@@ -1,0 +1,1 @@
+This folder is for database files. If you didn't change this databases file name then you can just backup default.db.
