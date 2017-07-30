@@ -2,9 +2,8 @@
   "name": "socialecho",
   "version": "0.1.0",
   "description": "A open twitter tool for scheduling collections of tweets",
-  "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node bin/www",
     "test": "eslint ."
   },
   "repository": {
@@ -27,11 +26,13 @@
     "body-parser": "^1.17.2",
     "config": "^1.26.1",
     "csv": "^1.1.1",
+    "debug": "^2.6.8",
     "express": "^4.15.3",
     "express-graphql": "^0.6.7",
     "graphql": "^0.10.5",
     "jsonwebtoken": "^7.4.1",
-    "sqlite": "^2.8.0",
+    "sequelize": "^4.4.2",
+    "sequelize-cli": "^2.7.0",
     "sqlite3": "^3.1.8"
   },
   "devDependencies": {
